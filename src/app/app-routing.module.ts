@@ -5,6 +5,7 @@ import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.
 import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
+import { MyPolarChartComponent } from './my-polar-chart/my-polar-chart.component';
 
 const routes: Routes = [
   { path: 'bar-chart', component: MyBarChartComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'radar-chart', component: MyRadarChartComponent},
   { path: 'pie-chart', component: MyPieChartComponent},
   { path: 'line-chart', component: MyLineChartComponent},
+  { path: 'polar-chart', component: MyPolarChartComponent},
   { path: '**', component: MyBarChartComponent },
 ];
 

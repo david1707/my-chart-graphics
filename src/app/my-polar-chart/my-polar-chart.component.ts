@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyPolarChartComponent implements OnInit {
 
+  public polarChartLabels = ['North East Area', 'North - North West Area', 'South Area', 'West Area', 'East Area', 'HeadQuarters Area'];
+  public polarChartType = 'polarArea';
+  public polarChartLegend = true;
+
+  public polarChartData = [ 42, 51, 50, 39, 49, 56 ];
+
   constructor() { }
 
   ngOnInit() {
