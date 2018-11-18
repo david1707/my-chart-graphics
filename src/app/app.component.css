@@ -1,0 +1,14 @@
+.nav.nav-tabs { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+a {
+    color: #a35ee4;
+}
+
+a:hover {
+    color: #6406bd;
+}
